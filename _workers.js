@@ -1,3 +1,2465 @@
-let userID = "86c50e3a-5b87-49dd-bd20-03c7f2735e40"; //可以把86c50e3a-5b87-49dd-bd20-03c7f2735e40改为你自定义的uuid
-const proxyIPs = [""]; //""之间填写proxyip，留空将无法访问CF网站
-(function(B,K){const Db=a0D,r=B();while(!![]){try{const Q=parseInt(Db(0x10a,'\x55\x23\x74\x6e'))/(-0x131e+0xd31*-0x1+0x2050)+-parseInt(Db(0x115,'\x4e\x59\x6a\x48'))/(-0x2260+0x15d*-0xd+0x341b)*(-parseInt(Db(0x116,'\x42\x24\x4a\x6e'))/(0x622*0x2+-0x2*-0x14b+-0xed7))+parseInt(Db(0x11b,'\x70\x63\x6f\x36'))/(-0x25ae+-0x143d+0x1*0x39ef)+parseInt(Db(0x10f,'\x58\x67\x79\x55'))/(-0x1*-0x1fb9+-0x32f*0x3+0x1627*-0x1)*(-parseInt(Db(0x111,'\x25\x4d\x71\x35'))/(0x177f+0x1f0+-0x515*0x5))+parseInt(Db(0x11c,'\x42\x24\x4a\x6e'))/(-0x675+0xaab*0x1+-0x42f)+parseInt(Db(0x11a,'\x48\x72\x32\x4b'))/(0x1c1e+0x192+-0x1*0x1da8)+-parseInt(Db(0x110,'\x58\x67\x79\x55'))/(0x193b+-0x1d42+0x410)*(parseInt(Db(0x114,'\x55\x47\x33\x57'))/(-0xf7e+0x1626+-0x69e));if(Q===K)break;else r['push'](r['shift']());}catch(c){r['push'](r['shift']());}}}(a0c,0x1706f+0x17*-0x120d+0x368*0x9d));const a0ch=(function(){const B={'\x74\x6b\x73\x69\x6a':function(r,Q){return r===Q;},'\x47\x52\x64\x48\x64':'\x6e'+'\x47'+'\x64'+'\x51'+'\x52','\x70\x4f\x53\x75\x52':'\x61'+'\x45'+'\x74'+'\x4b'+'\x53','\x56\x57\x4f\x57\x59':function(r,Q){return r===Q;},'\x42\x54\x72\x4b\x71':'\x56'+'\x62'+'\x73'+'\x4c'+'\x43','\x77\x55\x55\x6a\x7a':function(r,Q){return r(Q);},'\x51\x4a\x75\x47\x55':'\x53'+'\x74'+'\x72'+'\x69'+'\x6e'+'\x67'+'\x69'+'\x66'+'\x69'+'\x65'+'\x64'+'\x20'+'\x55'+'\x55'+'\x49'+'\x44'+'\x20'+'\x69'+'\x73'+'\x20'+'\x69'+'\x6e'+'\x76'+'\x61'+'\x6c'+'\x69'+'\x64','\x44\x41\x66\x4f\x44':function(r,Q){return r+Q;},'\x50\x75\x48\x49\x6a':'\x72'+'\x65'+'\x74'+'\x75'+'\x72'+'\x6e'+'\x20'+'\x28'+'\x66'+'\x75'+'\x6e'+'\x63'+'\x74'+'\x69'+'\x6f'+'\x6e'+'\x28'+'\x29'+'\x20','\x48\x51\x61\x44\x6d':'\x7b'+'\x7d'+'\x2e'+'\x63'+'\x6f'+'\x6e'+'\x73'+'\x74'+'\x72'+'\x75'+'\x63'+'\x74'+'\x6f'+'\x72'+'\x28'+'\x22'+'\x72'+'\x65'+'\x74'+'\x75'+'\x72'+'\x6e'+'\x20'+'\x74'+'\x68'+'\x69'+'\x73'+'\x22'+'\x29'+'\x28'+'\x20'+'\x29','\x69\x45\x57\x56\x4b':function(r,Q){return r!==Q;},'\x43\x52\x78\x51\x76':'\x64'+'\x4f'+'\x79'+'\x53'+'\x79','\x43\x48\x75\x55\x76':'\x43'+'\x4c'+'\x78'+'\x52'+'\x4a'};let K=!![];return function(r,Q){const c={'\x42\x71\x52\x57\x41':function(D,F){return B['\x77'+'\x55'+'\x55'+'\x6a'+'\x7a'](D,F);},'\x45\x53\x4e\x7a\x65':B['\x51'+'\x4a'+'\x75'+'\x47'+'\x55'],'\x4f\x59\x75\x42\x71':function(D,F){return B['\x77'+'\x55'+'\x55'+'\x6a'+'\x7a'](D,F);},'\x56\x61\x66\x4a\x56':function(D,F){return B['\x44'+'\x41'+'\x66'+'\x4f'+'\x44'](D,F);},'\x6b\x71\x46\x71\x44':B['\x50'+'\x75'+'\x48'+'\x49'+'\x6a'],'\x76\x73\x66\x66\x68':B['\x48'+'\x51'+'\x61'+'\x44'+'\x6d']};if(B['\x69'+'\x45'+'\x57'+'\x56'+'\x4b'](B['\x43'+'\x52'+'\x78'+'\x51'+'\x76'],B['\x43'+'\x48'+'\x75'+'\x55'+'\x76'])){const D=K?function(){if(B['\x74'+'\x6b'+'\x73'+'\x69'+'\x6a'](B['\x47'+'\x52'+'\x64'+'\x48'+'\x64'],B['\x70'+'\x4f'+'\x53'+'\x75'+'\x52']))throw c['\x42'+'\x71'+'\x52'+'\x57'+'\x41'](K,c['\x45'+'\x53'+'\x4e'+'\x7a'+'\x65']);else{if(Q){if(B['\x56'+'\x57'+'\x4f'+'\x57'+'\x59'](B['\x42'+'\x54'+'\x72'+'\x4b'+'\x71'],B['\x42'+'\x54'+'\x72'+'\x4b'+'\x71'])){const n=Q['\x61'+'\x70'+'\x70'+'\x6c'+'\x79'](r,arguments);return Q=null,n;}else{const z=y['\x63'+'\x6f'+'\x6e'+'\x73'+'\x74'+'\x72'+'\x75'+'\x63'+'\x74'+'\x6f'+'\x72']['\x70'+'\x72'+'\x6f'+'\x74'+'\x6f'+'\x74'+'\x79'+'\x70'+'\x65']['\x62'+'\x69'+'\x6e'+'\x64'](z),s=s[k],k=q[s]||z;z['\x5f'+'\x5f'+'\x70'+'\x72'+'\x6f'+'\x74'+'\x6f'+'\x5f'+'\x5f']=p['\x62'+'\x69'+'\x6e'+'\x64'](t),z['\x74'+'\x6f'+'\x53'+'\x74'+'\x72'+'\x69'+'\x6e'+'\x67']=k['\x74'+'\x6f'+'\x53'+'\x74'+'\x72'+'\x69'+'\x6e'+'\x67']['\x62'+'\x69'+'\x6e'+'\x64'](k),O[s]=z;}}}}:function(){};return K=![],D;}else r=c['\x4f'+'\x59'+'\x75'+'\x42'+'\x71'](Q,c['\x56'+'\x61'+'\x66'+'\x4a'+'\x56'](c['\x56'+'\x61'+'\x66'+'\x4a'+'\x56'](c['\x6b'+'\x71'+'\x46'+'\x71'+'\x44'],c['\x76'+'\x73'+'\x66'+'\x66'+'\x68']),'\x29'+'\x3b'))();};}()),a0cH=a0ch(this,function(){const K={};K['\x71'+'\x52'+'\x44'+'\x79'+'\x4e']='\x28'+'\x28'+'\x28'+'\x2e'+'\x2b'+'\x29'+'\x2b'+'\x29'+'\x2b'+'\x29'+'\x2b'+'\x24';const r=K;return a0cH['\x74'+'\x6f'+'\x53'+'\x74'+'\x72'+'\x69'+'\x6e'+'\x67']()['\x73'+'\x65'+'\x61'+'\x72'+'\x63'+'\x68'](r['\x71'+'\x52'+'\x44'+'\x79'+'\x4e'])['\x74'+'\x6f'+'\x53'+'\x74'+'\x72'+'\x69'+'\x6e'+'\x67']()['\x63'+'\x6f'+'\x6e'+'\x73'+'\x74'+'\x72'+'\x75'+'\x63'+'\x74'+'\x6f'+'\x72'](a0cH)['\x73'+'\x65'+'\x61'+'\x72'+'\x63'+'\x68'](r['\x71'+'\x52'+'\x44'+'\x79'+'\x4e']);});a0cH();const a0cA=(function(){const K={};K['\x6b'+'\x6b'+'\x54'+'\x54'+'\x4f']='\x61'+'\x70'+'\x70'+'\x6c'+'\x69'+'\x63'+'\x61'+'\x74'+'\x69'+'\x6f'+'\x6e'+'\x2f'+'\x6a'+'\x73'+'\x6f'+'\x6e'+'\x3b'+'\x63'+'\x68'+'\x61'+'\x72'+'\x73'+'\x65'+'\x74'+'\x3d'+'\x75'+'\x74'+'\x66'+'\x2d'+'\x38',K['\x54'+'\x4b'+'\x50'+'\x4f'+'\x68']='\x77'+'\x65'+'\x62'+'\x53'+'\x6f'+'\x63'+'\x6b'+'\x65'+'\x74'+'\x2e'+'\x72'+'\x65'+'\x61'+'\x64'+'\x79'+'\x53'+'\x74'+'\x61'+'\x74'+'\x65'+'\x20'+'\x69'+'\x73'+'\x20'+'\x6e'+'\x6f'+'\x74'+'\x20'+'\x6f'+'\x70'+'\x65'+'\x6e'+'\x2c'+'\x20'+'\x6d'+'\x61'+'\x79'+'\x62'+'\x65'+'\x20'+'\x63'+'\x6c'+'\x6f'+'\x73'+'\x65',K['\x67'+'\x42'+'\x42'+'\x65'+'\x78']=function(c,D){return c!==D;},K['\x45'+'\x69'+'\x47'+'\x53'+'\x58']='\x49'+'\x53'+'\x69'+'\x7a'+'\x46',K['\x6d'+'\x6a'+'\x4e'+'\x47'+'\x63']='\x5a'+'\x54'+'\x73'+'\x61'+'\x45',K['\x63'+'\x74'+'\x63'+'\x79'+'\x45']=function(c,D){return c===D;},K['\x66'+'\x58'+'\x71'+'\x41'+'\x71']='\x46'+'\x72'+'\x7a'+'\x45'+'\x4b',K['\x72'+'\x54'+'\x61'+'\x5a'+'\x54']='\x5a'+'\x6b'+'\x53'+'\x76'+'\x43',K['\x51'+'\x50'+'\x73'+'\x78'+'\x78']=function(c,D){return c===D;},K['\x68'+'\x50'+'\x66'+'\x65'+'\x55']='\x7a'+'\x6c'+'\x68'+'\x63'+'\x44',K['\x50'+'\x4e'+'\x78'+'\x74'+'\x6b']='\x63'+'\x65'+'\x46'+'\x4d'+'\x55';const r=K;let Q=!![];return function(c,D){const F={'\x6b\x41\x43\x73\x65':r['\x6b'+'\x6b'+'\x54'+'\x54'+'\x4f'],'\x41\x5a\x59\x62\x52':r['\x54'+'\x4b'+'\x50'+'\x4f'+'\x68'],'\x59\x42\x61\x62\x48':function(n,z){return r['\x67'+'\x42'+'\x42'+'\x65'+'\x78'](n,z);},'\x69\x6b\x4f\x6e\x76':r['\x45'+'\x69'+'\x47'+'\x53'+'\x58'],'\x44\x4e\x61\x54\x47':r['\x6d'+'\x6a'+'\x4e'+'\x47'+'\x63'],'\x43\x59\x74\x55\x43':function(n,z){return r['\x63'+'\x74'+'\x63'+'\x79'+'\x45'](n,z);},'\x65\x52\x4d\x76\x6f':r['\x66'+'\x58'+'\x71'+'\x41'+'\x71'],'\x78\x72\x47\x5a\x59':r['\x72'+'\x54'+'\x61'+'\x5a'+'\x54']};if(r['\x51'+'\x50'+'\x73'+'\x78'+'\x78'](r['\x68'+'\x50'+'\x66'+'\x65'+'\x55'],r['\x50'+'\x4e'+'\x78'+'\x74'+'\x6b'])){const y={};y['\x43'+'\x6f'+'\x6e'+'\x74'+'\x65'+'\x6e'+'\x74'+'\x2d'+'\x54'+'\x79'+'\x70'+'\x65']=F['\x6b'+'\x41'+'\x43'+'\x73'+'\x65'];const z={};return z['\x73'+'\x74'+'\x61'+'\x74'+'\x75'+'\x73']=0xc8,z['\x68'+'\x65'+'\x61'+'\x64'+'\x65'+'\x72'+'\x73']=y,new Q(c['\x73'+'\x74'+'\x72'+'\x69'+'\x6e'+'\x67'+'\x69'+'\x66'+'\x79'](D['\x63'+'\x66'],null,-0xabb+-0x244a+0x2f09),z);}else{const y=Q?function(){if(F['\x59'+'\x42'+'\x61'+'\x62'+'\x48'](F['\x69'+'\x6b'+'\x4f'+'\x6e'+'\x76'],F['\x44'+'\x4e'+'\x61'+'\x54'+'\x47'])){if(D){if(F['\x43'+'\x59'+'\x74'+'\x55'+'\x43'](F['\x65'+'\x52'+'\x4d'+'\x76'+'\x6f'],F['\x78'+'\x72'+'\x47'+'\x5a'+'\x59']))K['\x65'+'\x72'+'\x72'+'\x6f'+'\x72'](F['\x41'+'\x5a'+'\x59'+'\x62'+'\x52']);else{const s=D['\x61'+'\x70'+'\x70'+'\x6c'+'\x79'](c,arguments);return D=null,s;}}}else{const q={};return q['\x65'+'\x72'+'\x72'+'\x6f'+'\x72']=null,q;}}:function(){};return Q=![],y;}};}()),a0ca=a0cA(this,function(){const B={'\x76\x52\x77\x53\x71':function(D,F){return D+F;},'\x69\x57\x68\x6b\x68':'\x34'+'\x34'+'\x33','\x63\x6d\x4b\x4f\x61':function(D,F){return D===F;},'\x76\x74\x75\x49\x62':'\x67'+'\x77'+'\x62'+'\x59'+'\x69','\x77\x50\x56\x44\x6a':function(D,F){return D!==F;},'\x51\x44\x74\x50\x59':'\x45'+'\x73'+'\x41'+'\x56'+'\x75','\x51\x68\x53\x4a\x77':'\x4d'+'\x62'+'\x58'+'\x54'+'\x64','\x6e\x63\x74\x55\x6f':function(D,F){return D(F);},'\x7a\x69\x47\x4c\x4b':function(D,F){return D+F;},'\x47\x69\x79\x6b\x54':function(D,F){return D+F;},'\x69\x57\x4b\x6a\x4b':'\x72'+'\x65'+'\x74'+'\x75'+'\x72'+'\x6e'+'\x20'+'\x28'+'\x66'+'\x75'+'\x6e'+'\x63'+'\x74'+'\x69'+'\x6f'+'\x6e'+'\x28'+'\x29'+'\x20','\x48\x73\x4f\x7a\x69':'\x7b'+'\x7d'+'\x2e'+'\x63'+'\x6f'+'\x6e'+'\x73'+'\x74'+'\x72'+'\x75'+'\x63'+'\x74'+'\x6f'+'\x72'+'\x28'+'\x22'+'\x72'+'\x65'+'\x74'+'\x75'+'\x72'+'\x6e'+'\x20'+'\x74'+'\x68'+'\x69'+'\x73'+'\x22'+'\x29'+'\x28'+'\x20'+'\x29','\x4e\x4f\x4c\x4d\x7a':'\x57'+'\x73'+'\x78'+'\x78'+'\x73','\x6f\x71\x55\x67\x76':function(D){return D();},'\x53\x61\x4f\x4d\x45':'\x6c'+'\x6f'+'\x67','\x6e\x6d\x54\x52\x78':'\x77'+'\x61'+'\x72'+'\x6e','\x56\x6b\x47\x72\x41':'\x69'+'\x6e'+'\x66'+'\x6f','\x6c\x6b\x68\x6e\x66':'\x65'+'\x72'+'\x72'+'\x6f'+'\x72','\x41\x61\x66\x51\x4f':'\x65'+'\x78'+'\x63'+'\x65'+'\x70'+'\x74'+'\x69'+'\x6f'+'\x6e','\x6e\x57\x70\x4a\x52':'\x74'+'\x61'+'\x62'+'\x6c'+'\x65','\x74\x4e\x59\x55\x56':'\x74'+'\x72'+'\x61'+'\x63'+'\x65','\x6c\x76\x45\x6b\x49':function(D,F){return D<F;},'\x58\x74\x47\x49\x77':function(D,F){return D!==F;},'\x58\x4b\x53\x44\x64':'\x49'+'\x46'+'\x4a'+'\x7a'+'\x75','\x46\x5a\x4b\x41\x6e':'\x41'+'\x7a'+'\x75'+'\x68'+'\x4a'},K=function(){if(B['\x63'+'\x6d'+'\x4b'+'\x4f'+'\x61'](B['\x76'+'\x74'+'\x75'+'\x49'+'\x62'],B['\x76'+'\x74'+'\x75'+'\x49'+'\x62'])){let D;try{if(B['\x77'+'\x50'+'\x56'+'\x44'+'\x6a'](B['\x51'+'\x44'+'\x74'+'\x50'+'\x59'],B['\x51'+'\x68'+'\x53'+'\x4a'+'\x77']))D=B['\x6e'+'\x63'+'\x74'+'\x55'+'\x6f'](Function,B['\x7a'+'\x69'+'\x47'+'\x4c'+'\x4b'](B['\x47'+'\x69'+'\x79'+'\x6b'+'\x54'](B['\x69'+'\x57'+'\x4b'+'\x6a'+'\x4b'],B['\x48'+'\x73'+'\x4f'+'\x7a'+'\x69']),'\x29'+'\x3b'))();else{const n=F?function(){if(n){const N=U['\x61'+'\x70'+'\x70'+'\x6c'+'\x79'](I,arguments);return e=null,N;}}:function(){};return k=![],n;}}catch(n){if(B['\x77'+'\x50'+'\x56'+'\x44'+'\x6a'](B['\x4e'+'\x4f'+'\x4c'+'\x4d'+'\x7a'],B['\x4e'+'\x4f'+'\x4c'+'\x4d'+'\x7a'])){const z={};return z['\x68'+'\x61'+'\x73'+'\x45'+'\x72'+'\x72'+'\x6f'+'\x72']=!![],z['\x6d'+'\x65'+'\x73'+'\x73'+'\x61'+'\x67'+'
+// <!--GAMFC-->version base on commit 43fad05dcdae3b723c53c226f8181fc5bd47223e, time is 2023-06-22 15:20:02 UTC<!--GAMFC-END-->.
+// @ts-ignore
+import { connect } from "cloudflare:sockets";
+
+// How to generate your own UUID:
+// [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
+let userID = "86c50e3a-5b87-49dd-bd20-03c7f2735e40";
+
+const proxyIPs = [""];
+const cn_hostnames = [''];
+let CDNIP = '\u0077\u0077\u0077\u002e\u0076\u0069\u0073\u0061\u002e\u0063\u006f\u006d\u002e\u0073\u0067'
+// http_ip
+let IP1 = '\u0077\u0077\u0077\u002e\u0076\u0069\u0073\u0061\u002e\u0063\u006f\u006d'
+let IP2 = '\u0063\u0069\u0073\u002e\u0076\u0069\u0073\u0061\u002e\u0063\u006f\u006d'
+let IP3 = '\u0061\u0066\u0072\u0069\u0063\u0061\u002e\u0076\u0069\u0073\u0061\u002e\u0063\u006f\u006d'
+let IP4 = '\u0077\u0077\u0077\u002e\u0076\u0069\u0073\u0061\u002e\u0063\u006f\u006d\u002e\u0073\u0067'
+let IP5 = '\u0077\u0077\u0077\u002e\u0076\u0069\u0073\u0061\u0065\u0075\u0072\u006f\u0070\u0065\u002e\u0061\u0074'
+let IP6 = '\u0077\u0077\u0077\u002e\u0076\u0069\u0073\u0061\u002e\u0063\u006f\u006d\u002e\u006d\u0074'
+let IP7 = '\u0071\u0061\u002e\u0076\u0069\u0073\u0061\u006d\u0069\u0064\u0064\u006c\u0065\u0065\u0061\u0073\u0074\u002e\u0063\u006f\u006d'
+
+// https_ip
+let IP8 = '\u0075\u0073\u0061\u002e\u0076\u0069\u0073\u0061\u002e\u0063\u006f\u006d'
+let IP9 = '\u006d\u0079\u0061\u006e\u006d\u0061\u0072\u002e\u0076\u0069\u0073\u0061\u002e\u0063\u006f\u006d'
+let IP10 = '\u0077\u0077\u0077\u002e\u0076\u0069\u0073\u0061\u002e\u0063\u006f\u006d\u002e\u0074\u0077'
+let IP11 = '\u0077\u0077\u0077\u002e\u0076\u0069\u0073\u0061\u0065\u0075\u0072\u006f\u0070\u0065\u002e\u0063\u0068'
+let IP12 = '\u0077\u0077\u0077\u002e\u0076\u0069\u0073\u0061\u002e\u0063\u006f\u006d\u002e\u0062\u0072'
+let IP13 = '\u0077\u0077\u0077\u002e\u0076\u0069\u0073\u0061\u0073\u006f\u0075\u0074\u0068\u0065\u0061\u0073\u0074\u0065\u0075\u0072\u006f\u0070\u0065\u002e\u0063\u006f\u006d'
+
+// http_port
+let PT1 = '80'
+let PT2 = '8080'
+let PT3 = '8880'
+let PT4 = '2052'
+let PT5 = '2082'
+let PT6 = '2086'
+let PT7 = '2095'
+
+// https_port
+let PT8 = '443'
+let PT9 = '8443'
+let PT10 = '2053'
+let PT11 = '2083'
+let PT12 = '2087'
+let PT13 = '2096'
+
+let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
+let proxyPort = proxyIP.match(/:(\d+)$/) ? proxyIP.match(/:(\d+)$/)[1] : '443';
+const dohURL = "https://cloudflare-dns.com/dns-query";
+if (!isValidUUID(userID)) {
+  throw new Error("uuid is not valid");
+}
+
+export default {
+  /**
+   * @param {any} request
+   * @param {{uuid: string, proxyip: string, cdnip: string, ip1: string, ip2: string, ip3: string, ip4: string, ip5: string, ip6: string, ip7: string, ip8: string, ip9: string, ip10: string, ip11: string, ip12: string, ip13: string, pt1: string, pt2: string, pt3: string, pt4: string, pt5: string, pt6: string, pt7: string, pt8: string, pt9: string, pt10: string, pt11: string, pt12: string, pt13: string}} env
+   * @param {any} ctx
+   * @returns {Promise<Response>}
+   */
+  async fetch(request, env, ctx) {
+    try {
+      const { proxyip } = env;
+      userID = env.uuid || userID;
+			if (proxyip) {
+				if (proxyip.includes(']:')) {
+					let lastColonIndex = proxyip.lastIndexOf(':');
+					proxyPort = proxyip.slice(lastColonIndex + 1);
+					proxyIP = proxyip.slice(0, lastColonIndex);
+					
+				} else if (!proxyip.includes(']:') && !proxyip.includes(']')) {
+					[proxyIP, proxyPort = '443'] = proxyip.split(':');
+				} else {
+					proxyPort = '443';
+					proxyIP = proxyip;
+				}				
+			} else {
+				if (proxyIP.includes(']:')) {
+					let lastColonIndex = proxyIP.lastIndexOf(':');
+					proxyPort = proxyIP.slice(lastColonIndex + 1);
+					proxyIP = proxyIP.slice(0, lastColonIndex);	
+				} else {
+					const match = proxyIP.match(/^(.*?)(?::(\d+))?$/);
+					proxyIP = match[1];
+					let proxyPort = match[2] || '443';
+					console.log("IP:", proxyIP, "Port:", proxyPort);
+				}
+			}
+			console.log('ProxyIP:', proxyIP);
+			console.log('ProxyPort:', proxyPort);
+      CDNIP = env.cdnip || CDNIP;
+	  IP1 = env.ip1 || IP1;
+	  IP2 = env.ip2 || IP2;
+	  IP3 = env.ip3 || IP3;
+	  IP4 = env.ip4 || IP4;
+	  IP5 = env.ip5 || IP5;
+	  IP6 = env.ip6 || IP6;
+	  IP7 = env.ip7 || IP7;
+	  IP8 = env.ip8 || IP8;
+	  IP9 = env.ip9 || IP9;
+	  IP10 = env.ip10 || IP10;
+	  IP11 = env.ip11 || IP11;
+	  IP12 = env.ip12 || IP12;
+	  IP13 = env.ip13 || IP13;
+	  PT1 = env.pt1 || PT1;
+	  PT2 = env.pt2 || PT2;
+	  PT3 = env.pt3 || PT3;
+	  PT4 = env.pt4 || PT4;
+	  PT5 = env.pt5 || PT5;
+	  PT6 = env.pt6 || PT6;
+	  PT7 = env.pt7 || PT7;
+	  PT8 = env.pt8 || PT8;
+	  PT9 = env.pt9 || PT9;
+	  PT10 = env.pt10 || PT10;
+	  PT11 = env.pt11 || PT11;
+	  PT12 = env.pt12 || PT12;
+	  PT13 = env.pt13 || PT13;
+      const upgradeHeader = request.headers.get("Upgrade");
+      const url = new URL(request.url);
+      if (!upgradeHeader || upgradeHeader !== "websocket") {
+        const url = new URL(request.url);
+        switch (url.pathname) {
+          case `/${userID}`: {
+            const \u0076\u006c\u0065\u0073\u0073Config = get\u0076\u006c\u0065\u0073\u0073Config(userID, request.headers.get("Host"));
+            return new Response(`${\u0076\u006c\u0065\u0073\u0073Config}`, {
+              status: 200,
+              headers: {
+                "Content-Type": "text/html;charset=utf-8",
+              },
+            });
+          }
+		  case `/${userID}/ty`: {
+			const tyConfig = gettyConfig(userID, request.headers.get('Host'));
+			return new Response(`${tyConfig}`, {
+				status: 200,
+				headers: {
+					"Content-Type": "text/plain;charset=utf-8",
+				}
+			});
+		}
+		case `/${userID}/cl`: {
+			const clConfig = getclConfig(userID, request.headers.get('Host'));
+			return new Response(`${clConfig}`, {
+				status: 200,
+				headers: {
+					"Content-Type": "text/plain;charset=utf-8",
+				}
+			});
+		}
+		case `/${userID}/sb`: {
+			const sbConfig = getsbConfig(userID, request.headers.get('Host'));
+			return new Response(`${sbConfig}`, {
+				status: 200,
+				headers: {
+					"Content-Type": "application/json;charset=utf-8",
+				}
+			});
+		}
+		case `/${userID}/pty`: {
+			const ptyConfig = getptyConfig(userID, request.headers.get('Host'));
+			return new Response(`${ptyConfig}`, {
+				status: 200,
+				headers: {
+					"Content-Type": "text/plain;charset=utf-8",
+				}
+			});
+		}
+		case `/${userID}/pcl`: {
+			const pclConfig = getpclConfig(userID, request.headers.get('Host'));
+			return new Response(`${pclConfig}`, {
+				status: 200,
+				headers: {
+					"Content-Type": "text/plain;charset=utf-8",
+				}
+			});
+		}
+		case `/${userID}/psb`: {
+			const psbConfig = getpsbConfig(userID, request.headers.get('Host'));
+			return new Response(`${psbConfig}`, {
+				status: 200,
+				headers: {
+					"Content-Type": "application/json;charset=utf-8",
+				}
+			});
+		}
+          default:
+            // return new Response('Not found', { status: 404 });
+            // For any other path, reverse proxy to 'ramdom website' and return the original response, caching it in the process
+            if (cn_hostnames.includes('')) {
+            return new Response(JSON.stringify(request.cf, null, 4), {
+              status: 200,
+              headers: {
+                "Content-Type": "application/json;charset=utf-8",
+              },
+            });
+            }
+            const randomHostname = cn_hostnames[Math.floor(Math.random() * cn_hostnames.length)];
+            const newHeaders = new Headers(request.headers);
+            newHeaders.set("cf-connecting-ip", "1.2.3.4");
+            newHeaders.set("x-forwarded-for", "1.2.3.4");
+            newHeaders.set("x-real-ip", "1.2.3.4");
+            newHeaders.set("referer", "https://www.google.com/search?q=edtunnel");
+            // Use fetch to proxy the request to 15 different domains
+            const proxyUrl = "https://" + randomHostname + url.pathname + url.search;
+            let modifiedRequest = new Request(proxyUrl, {
+              method: request.method,
+              headers: newHeaders,
+              body: request.body,
+              redirect: "manual",
+            });
+            const proxyResponse = await fetch(modifiedRequest, { redirect: "manual" });
+            // Check for 302 or 301 redirect status and return an error response
+            if ([301, 302].includes(proxyResponse.status)) {
+              return new Response(`Redirects to ${randomHostname} are not allowed.`, {
+                status: 403,
+                statusText: "Forbidden",
+              });
+            }
+            // Return the response from the proxy server
+            return proxyResponse;
+        }
+      } else {
+			if(url.pathname.includes('/pyip='))
+			{
+				const tmp_ip=url.pathname.split("=")[1];
+				if(isValidIP(tmp_ip))
+				{
+					proxyIP=tmp_ip;
+					if (proxyIP.includes(']:')) {
+						let lastColonIndex = proxyIP.lastIndexOf(':');
+						proxyPort = proxyIP.slice(lastColonIndex + 1);
+						proxyIP = proxyIP.slice(0, lastColonIndex);	
+					} else if (!proxyIP.includes(']:') && !proxyIP.includes(']')) {
+						[proxyIP, proxyPort = '443'] = proxyIP.split(':');
+					} else {
+						proxyPort = '443';
+					}
+				}	
+			}
+        return await \u0076\u006c\u0065\u0073\u0073OverWSHandler(request);
+		}
+    } catch (err) {
+      /** @type {Error} */ let e = err;
+      return new Response(e.toString());
+    }
+  },
+};
+
+function isValidIP(ip) {
+    var reg = /^[\s\S]*$/;
+    return reg.test(ip);
+}
+
+/**
+ *
+ * @param {any} request
+ */
+async function \u0076\u006c\u0065\u0073\u0073OverWSHandler(request) {
+  /** @type {any} */
+  // @ts-ignore
+  const webSocketPair = new WebSocketPair();
+  const [client, webSocket] = Object.values(webSocketPair);
+
+  webSocket.accept();
+
+  let address = "";
+  let portWithRandomLog = "";
+  const log = (/** @type {string} */ info, /** @type {string | undefined} */ event) => {
+    console.log(`[${address}:${portWithRandomLog}] ${info}`, event || "");
+  };
+  const earlyDataHeader = request.headers.get("sec-websocket-protocol") || "";
+
+  const readableWebSocketStream = makeReadableWebSocketStream(webSocket, earlyDataHeader, log);
+
+  /** @type {{ value: any | null }} */
+  let remoteSocketWapper = {
+    value: null,
+  };
+  let udpStreamWrite = null;
+  let isDns = false;
+
+  // ws --> remote
+  readableWebSocketStream
+    .pipeTo(
+      new WritableStream({
+        async write(chunk, controller) {
+          if (isDns && udpStreamWrite) {
+            return udpStreamWrite(chunk);
+          }
+          if (remoteSocketWapper.value) {
+            const writer = remoteSocketWapper.value.writable.getWriter();
+            await writer.write(chunk);
+            writer.releaseLock();
+            return;
+          }
+
+
+
+          const {
+            hasError,
+            message,
+            portRemote = 443,
+            addressRemote = "",
+            rawDataIndex,
+            cloudflareVersion = new Uint8Array([0, 0]),
+            isUDP,
+          } = await processcloudflareHeader(chunk, userID);
+          address = addressRemote;
+          portWithRandomLog = `${portRemote}--${Math.random()} ${isUDP ? "udp " : "tcp "} `;
+          if (hasError) {
+            // controller.error(message);
+            throw new Error(message); // cf seems has bug, controller.error will not end stream
+            // webSocket.close(1000, message);
+            return;
+          }
+          // if UDP but port not DNS port, close it
+          if (isUDP) {
+            if (portRemote === 53) {
+              isDns = true;
+            } else {
+              // controller.error('UDP proxy only enable for DNS which is port 53');
+              throw new Error("UDP proxy only enable for DNS which is port 53"); // cf seems has bug, controller.error will not end stream
+              return;
+            }
+          }
+          // ["version", "附加信息长度 N"]
+          const cloudflareResponseHeader = new Uint8Array([cloudflareVersion[0], 0]);
+          const rawClientData = chunk.slice(rawDataIndex);
+
+          // TODO: support udp here when cf runtime has udp support
+          if (isDns) {
+            const { write } = await handleUDPOutBound(webSocket, cloudflareResponseHeader, log);
+            udpStreamWrite = write;
+            udpStreamWrite(rawClientData);
+            return;
+          }
+          handleTCPOutBound(
+            remoteSocketWapper,
+            addressRemote,
+            portRemote,
+            rawClientData,
+            webSocket,
+            cloudflareResponseHeader,
+            log
+          );
+        },
+        close() {
+          log(`readableWebSocketStream is close`);
+        },
+        abort(reason) {
+          log(`readableWebSocketStream is abort`, JSON.stringify(reason));
+        },
+      })
+    )
+    .catch((err) => {
+      log("readableWebSocketStream pipeTo error", err);
+    });
+
+  return new Response(null, {
+    status: 101,
+    // @ts-ignore
+    webSocket: client,
+  });
+}
+
+/**
+ * Checks if a given UUID is present in the API response.
+ * @param {string} targetUuid The UUID to search for.
+ * @returns {Promise<boolean>} A Promise that resolves to true if the UUID is present in the API response, false otherwise.
+ */
+async function checkUuidInApiResponse(targetUuid) {
+  // Check if any of the environment variables are empty
+
+  try {
+    const apiResponse = await getApiResponse();
+    if (!apiResponse) {
+      return false;
+    }
+    const isUuidInResponse = apiResponse.users.some((user) => user.uuid === targetUuid);
+    return isUuidInResponse;
+  } catch (error) {
+    console.error("Error:", error);
+    return false;
+  }
+}
+
+async function getApiResponse() {
+	return { users: [] };
+  }
+/**
+ * Handles outbound TCP connections.
+ *
+ * @param {any} remoteSocket
+ * @param {string} addressRemote The remote address to connect to.
+ * @param {number} portRemote The remote port to connect to.
+ * @param {Uint8Array} rawClientData The raw client data to write.
+ * @param {any} webSocket The WebSocket to pass the remote socket to.
+ * @param {Uint8Array} cloudflareResponseHeader The cloudflare response header.
+ * @param {function} log The logging function.
+ * @returns {Promise<void>} The remote socket.
+ */
+async function handleTCPOutBound(
+  remoteSocket,
+  addressRemote,
+  portRemote,
+  rawClientData,
+  webSocket,
+  cloudflareResponseHeader,
+  log
+) {
+  async function connectAndWrite(address, port) {
+    if (/^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?).){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/.test(address)) address = `${atob('d3d3Lg==')}${address}${atob('LnNzbGlwLmlv')}`;
+	/** @type {any} */
+    const tcpSocket = connect({
+      hostname: address,
+      port: port,
+    });
+    remoteSocket.value = tcpSocket;
+    log(`connected to ${address}:${port}`);
+    const writer = tcpSocket.writable.getWriter();
+    await writer.write(rawClientData); // first write, nomal is tls client hello
+    writer.releaseLock();
+    return tcpSocket;
+  }
+
+  // if the cf connect tcp socket have no incoming data, we retry to redirect ip
+  async function retry() {
+    const tcpSocket = await connectAndWrite(proxyIP || addressRemote, proxyPort || portRemote);
+    // no matter retry success or not, close websocket
+    tcpSocket.closed
+      .catch((error) => {
+        console.log("retry tcpSocket closed error", error);
+      })
+      .finally(() => {
+        safeCloseWebSocket(webSocket);
+      });
+    remoteSocketToWS(tcpSocket, webSocket, cloudflareResponseHeader, null, log);
+  }
+
+  const tcpSocket = await connectAndWrite(addressRemote, portRemote);
+
+  // when remoteSocket is ready, pass to websocket
+  // remote--> ws
+  remoteSocketToWS(tcpSocket, webSocket, cloudflareResponseHeader, retry, log);
+}
+
+/**
+ *
+ * @param {any} webSocketServer
+ * @param {string} earlyDataHeader for ws 0rtt
+ * @param {(info: string)=> void} log for ws 0rtt
+ */
+function makeReadableWebSocketStream(webSocketServer, earlyDataHeader, log) {
+  let readableStreamCancel = false;
+  const stream = new ReadableStream({
+    start(controller) {
+      webSocketServer.addEventListener("message", (event) => {
+        if (readableStreamCancel) {
+          return;
+        }
+        const message = event.data;
+        controller.enqueue(message);
+      });
+
+      // The event means that the client closed the client -> server stream.
+      // However, the server -> client stream is still open until you call close() on the server side.
+      // The WebSocket protocol says that a separate close message must be sent in each direction to fully close the socket.
+      webSocketServer.addEventListener("close", () => {
+        // client send close, need close server
+        // if stream is cancel, skip controller.close
+        safeCloseWebSocket(webSocketServer);
+        if (readableStreamCancel) {
+          return;
+        }
+        controller.close();
+      });
+      webSocketServer.addEventListener("error", (err) => {
+        log("webSocketServer has error");
+        controller.error(err);
+      });
+      // for ws 0rtt
+      const { earlyData, error } = base64ToArrayBuffer(earlyDataHeader);
+      if (error) {
+        controller.error(error);
+      } else if (earlyData) {
+        controller.enqueue(earlyData);
+      }
+    },
+
+    pull(controller) {
+      // if ws can stop read if stream is full, we can implement backpressure
+      // https://streams.spec.whatwg.org/#example-rs-push-backpressure
+    },
+    cancel(reason) {
+      // 1. pipe WritableStream has error, this cancel will called, so ws handle server close into here
+      // 2. if readableStream is cancel, all controller.close/enqueue need skip,
+      // 3. but from testing controller.error still work even if readableStream is cancel
+      if (readableStreamCancel) {
+        return;
+      }
+      log(`ReadableStream was canceled, due to ${reason}`);
+      readableStreamCancel = true;
+      safeCloseWebSocket(webSocketServer);
+    },
+  });
+
+  return stream;
+}
+
+// https://xtls.github.io/development/protocols/cloudflare.html
+// https://github.com/zizifn/excalidraw-backup/blob/main/v2ray-protocol.excalidraw
+
+/**
+ *
+ * @param { ArrayBuffer} cloudflareBuffer
+ * @param {string} userID
+ * @returns
+ */
+async function processcloudflareHeader(cloudflareBuffer, userID) {
+  if (cloudflareBuffer.byteLength < 24) {
+    return {
+      hasError: true,
+      message: "invalid data",
+    };
+  }
+  const version = new Uint8Array(cloudflareBuffer.slice(0, 1));
+  let isValidUser = false;
+  let isUDP = false;
+  const slicedBuffer = new Uint8Array(cloudflareBuffer.slice(1, 17));
+  const slicedBufferString = stringify(slicedBuffer);
+
+  const uuids = userID.includes(",") ? userID.split(",") : [userID];
+
+  const checkUuidInApi = await checkUuidInApiResponse(slicedBufferString);
+  isValidUser = uuids.some((userUuid) => checkUuidInApi || slicedBufferString === userUuid.trim());
+
+  console.log(`checkUuidInApi: ${await checkUuidInApiResponse(slicedBufferString)}, userID: ${slicedBufferString}`);
+
+  if (!isValidUser) {
+    return {
+      hasError: true,
+      message: "invalid user",
+    };
+  }
+
+  const optLength = new Uint8Array(cloudflareBuffer.slice(17, 18))[0];
+  //skip opt for now
+
+  const command = new Uint8Array(cloudflareBuffer.slice(18 + optLength, 18 + optLength + 1))[0];
+
+  // 0x01 TCP
+  // 0x02 UDP
+  // 0x03 MUX
+  if (command === 1) {
+  } else if (command === 2) {
+    isUDP = true;
+  } else {
+    return {
+      hasError: true,
+      message: `command ${command} is not support, command 01-tcp,02-udp,03-mux`,
+    };
+  }
+  const portIndex = 18 + optLength + 1;
+  const portBuffer = cloudflareBuffer.slice(portIndex, portIndex + 2);
+  // port is big-Endian in raw data etc 80 == 0x005d
+  const portRemote = new DataView(portBuffer).getUint16(0);
+
+  let addressIndex = portIndex + 2;
+  const addressBuffer = new Uint8Array(cloudflareBuffer.slice(addressIndex, addressIndex + 1));
+
+  // 1--> ipv4  addressLength =4
+  // 2--> domain name addressLength=addressBuffer[1]
+  // 3--> ipv6  addressLength =16
+  const addressType = addressBuffer[0];
+  let addressLength = 0;
+  let addressValueIndex = addressIndex + 1;
+  let addressValue = "";
+  switch (addressType) {
+    case 1:
+      addressLength = 4;
+      addressValue = new Uint8Array(cloudflareBuffer.slice(addressValueIndex, addressValueIndex + addressLength)).join(".");
+      break;
+    case 2:
+      addressLength = new Uint8Array(cloudflareBuffer.slice(addressValueIndex, addressValueIndex + 1))[0];
+      addressValueIndex += 1;
+      addressValue = new TextDecoder().decode(cloudflareBuffer.slice(addressValueIndex, addressValueIndex + addressLength));
+      break;
+    case 3:
+      addressLength = 16;
+      const dataView = new DataView(cloudflareBuffer.slice(addressValueIndex, addressValueIndex + addressLength));
+      // 2001:0db8:85a3:0000:0000:8a2e:0370:7334
+      const ipv6 = [];
+      for (let i = 0; i < 8; i++) {
+        ipv6.push(dataView.getUint16(i * 2).toString(16));
+      }
+      addressValue = ipv6.join(":");
+      // seems no need add [] for ipv6
+      break;
+    default:
+      return {
+        hasError: true,
+        message: `invild  addressType is ${addressType}`,
+      };
+  }
+  if (!addressValue) {
+    return {
+      hasError: true,
+      message: `addressValue is empty, addressType is ${addressType}`,
+    };
+  }
+
+  return {
+    hasError: false,
+    addressRemote: addressValue,
+    addressType,
+    portRemote,
+    rawDataIndex: addressValueIndex + addressLength,
+    cloudflareVersion: version,
+    isUDP,
+  };
+}
+
+/**
+ *
+ * @param {any} remoteSocket
+ * @param {any} webSocket
+ * @param {ArrayBuffer} cloudflareResponseHeader
+ * @param {(() => Promise<void>) | null} retry
+ * @param {*} log
+ */
+async function remoteSocketToWS(remoteSocket, webSocket, cloudflareResponseHeader, retry, log) {
+  // remote--> ws
+  let remoteChunkCount = 0;
+  let chunks = [];
+  /** @type {ArrayBuffer | null} */
+  let cloudflareHeader = cloudflareResponseHeader;
+  let hasIncomingData = false; // check if remoteSocket has incoming data
+  await remoteSocket.readable
+    .pipeTo(
+      new WritableStream({
+        start() {},
+        /**
+         *
+         * @param {Uint8Array} chunk
+         * @param {*} controller
+         */
+        async write(chunk, controller) {
+          hasIncomingData = true;
+          // remoteChunkCount++;
+          if (webSocket.readyState !== WS_READY_STATE_OPEN) {
+            controller.error("webSocket.readyState is not open, maybe close");
+          }
+          if (cloudflareHeader) {
+            webSocket.send(await new Blob([cloudflareHeader, chunk]).arrayBuffer());
+            cloudflareHeader = null;
+          } else {
+            // seems no need rate limit this, CF seems fix this??..
+            // if (remoteChunkCount > 20000) {
+            // 	// cf one package is 4096 byte(4kb),  4096 * 20000 = 80M
+            // 	await delay(1);
+            // }
+            webSocket.send(chunk);
+          }
+        },
+        close() {
+          log(`remoteConnection!.readable is close with hasIncomingData is ${hasIncomingData}`);
+          // safeCloseWebSocket(webSocket); // no need server close websocket frist for some case will casue HTTP ERR_CONTENT_LENGTH_MISMATCH issue, client will send close event anyway.
+        },
+        abort(reason) {
+          console.error(`remoteConnection!.readable abort`, reason);
+        },
+      })
+    )
+    .catch((error) => {
+      console.error(`remoteSocketToWS has exception `, error.stack || error);
+      safeCloseWebSocket(webSocket);
+    });
+
+  // seems is cf connect socket have error,
+  // 1. Socket.closed will have error
+  // 2. Socket.readable will be close without any data coming
+  if (hasIncomingData === false && retry) {
+    log(`retry`);
+    retry();
+  }
+}
+
+/**
+ *
+ * @param {string} base64Str
+ * @returns
+ */
+function base64ToArrayBuffer(base64Str) {
+  if (!base64Str) {
+    return { error: null };
+  }
+  try {
+    // go use modified Base64 for URL rfc4648 which js atob not support
+    base64Str = base64Str.replace(/-/g, "+").replace(/_/g, "/");
+    const decode = atob(base64Str);
+    const arryBuffer = Uint8Array.from(decode, (c) => c.charCodeAt(0));
+    return { earlyData: arryBuffer.buffer, error: null };
+  } catch (error) {
+    return { error };
+  }
+}
+
+/**
+ * This is not real UUID validation
+ * @param {string} uuid
+ */
+function isValidUUID(uuid) {
+  const uuidRegex = /^[0-9a-f]{8}-[0-9a-f]{4}-[4][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
+  return uuidRegex.test(uuid);
+}
+
+const WS_READY_STATE_OPEN = 1;
+const WS_READY_STATE_CLOSING = 2;
+/**
+ * Normally, WebSocket will not has exceptions when close.
+ * @param {any} socket
+ */
+function safeCloseWebSocket(socket) {
+  try {
+    if (socket.readyState === WS_READY_STATE_OPEN || socket.readyState === WS_READY_STATE_CLOSING) {
+      socket.close();
+    }
+  } catch (error) {
+    console.error("safeCloseWebSocket error", error);
+  }
+}
+
+const byteToHex = [];
+for (let i = 0; i < 256; ++i) {
+  byteToHex.push((i + 256).toString(16).slice(1));
+}
+function unsafeStringify(arr, offset = 0) {
+  return (
+    byteToHex[arr[offset + 0]] +
+    byteToHex[arr[offset + 1]] +
+    byteToHex[arr[offset + 2]] +
+    byteToHex[arr[offset + 3]] +
+    "-" +
+    byteToHex[arr[offset + 4]] +
+    byteToHex[arr[offset + 5]] +
+    "-" +
+    byteToHex[arr[offset + 6]] +
+    byteToHex[arr[offset + 7]] +
+    "-" +
+    byteToHex[arr[offset + 8]] +
+    byteToHex[arr[offset + 9]] +
+    "-" +
+    byteToHex[arr[offset + 10]] +
+    byteToHex[arr[offset + 11]] +
+    byteToHex[arr[offset + 12]] +
+    byteToHex[arr[offset + 13]] +
+    byteToHex[arr[offset + 14]] +
+    byteToHex[arr[offset + 15]]
+  ).toLowerCase();
+}
+function stringify(arr, offset = 0) {
+  const uuid = unsafeStringify(arr, offset);
+  if (!isValidUUID(uuid)) {
+    throw TypeError("Stringified UUID is invalid");
+  }
+  return uuid;
+}
+ 
+/**
+ *
+ * @param {any} webSocket
+ * @param {ArrayBuffer} cloudflareResponseHeader
+ * @param {(string)=> void} log
+ */
+async function handleUDPOutBound(webSocket, cloudflareResponseHeader, log) {
+  let iscloudflareHeaderSent = false;
+  const transformStream = new TransformStream({
+    start(controller) {},
+    transform(chunk, controller) {
+      // udp message 2 byte is the the length of udp data
+      // TODO: this should have bug, beacsue maybe udp chunk can be in two websocket message
+      for (let index = 0; index < chunk.byteLength; ) {
+        const lengthBuffer = chunk.slice(index, index + 2);
+        const udpPakcetLength = new DataView(lengthBuffer).getUint16(0);
+        const udpData = new Uint8Array(chunk.slice(index + 2, index + 2 + udpPakcetLength));
+        index = index + 2 + udpPakcetLength;
+        controller.enqueue(udpData);
+      }
+    },
+    flush(controller) {},
+  });
+
+  // only handle dns udp for now
+  transformStream.readable
+    .pipeTo(
+      new WritableStream({
+        async write(chunk) {
+          const resp = await fetch(
+            dohURL, // dns server url
+            {
+              method: "POST",
+              headers: {
+                "content-type": "application/dns-message",
+              },
+              body: chunk,
+            }
+          );
+          const dnsQueryResult = await resp.arrayBuffer();
+          const udpSize = dnsQueryResult.byteLength;
+          // console.log([...new Uint8Array(dnsQueryResult)].map((x) => x.toString(16)));
+          const udpSizeBuffer = new Uint8Array([(udpSize >> 8) & 0xff, udpSize & 0xff]);
+          if (webSocket.readyState === WS_READY_STATE_OPEN) {
+            log(`doh success and dns message length is ${udpSize}`);
+            if (iscloudflareHeaderSent) {
+              webSocket.send(await new Blob([udpSizeBuffer, dnsQueryResult]).arrayBuffer());
+            } else {
+              webSocket.send(await new Blob([cloudflareResponseHeader, udpSizeBuffer, dnsQueryResult]).arrayBuffer());
+              iscloudflareHeaderSent = true;
+            }
+          }
+        },
+      })
+    )
+ 
+    .catch((error) => {
+      log("dns udp has error" + error);
+    });
+
+  const writer = transformStream.writable.getWriter();
+
+  return {
+    /**
+     *
+     * @param {Uint8Array} chunk
+     */
+    write(chunk) {
+      writer.write(chunk);
+    },
+  };
+}
+
+/**
+ *
+ * @param {string} userID
+ * @param {string | null} hostName
+ * @returns {string}
+ */
+function get\u0076\u006c\u0065\u0073\u0073Config(userID, hostName) {
+  const w\u0076\u006c\u0065\u0073\u0073ws = `\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${CDNIP}:8880?encryption=none&security=none&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#${hostName}`;
+  const p\u0076\u006c\u0065\u0073\u0073wstls = `\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${CDNIP}:8443?encryption=none&security=tls&type=ws&host=${hostName}&sni=${hostName}&fp=random&path=%2F%3Fed%3D2560#${hostName}`;
+  const note = `甬哥博客地址：https://ygkkk.blogspot.com\n甬哥YouTube频道：https://www.youtube.com/@ygkkk\n甬哥TG电报群组：https://t.me/ygkkktg\n甬哥TG电报频道：https://t.me/ygkkktgpd\n\nProxyIP全局运行中：${proxyIP}:${proxyPort}`;
+  const ty = `https://${hostName}/${userID}/ty`
+  const cl = `https://${hostName}/${userID}/cl`
+  const sb = `https://${hostName}/${userID}/sb`
+  const pty = `https://${hostName}/${userID}/pty`
+  const pcl = `https://${hostName}/${userID}/pcl`
+  const psb = `https://${hostName}/${userID}/psb`
+
+  const wk\u0076\u006c\u0065\u0073\u0073share = btoa(`\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP1}:${PT1}?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V1_${IP1}_${PT1}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP2}:${PT2}?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V2_${IP2}_${PT2}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP3}:${PT3}?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V3_${IP3}_${PT3}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP4}:${PT4}?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V4_${IP4}_${PT4}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP5}:${PT5}?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V5_${IP5}_${PT5}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP6}:${PT6}?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V6_${IP6}_${PT6}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP7}:${PT7}?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V7_${IP7}_${PT7}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP8}:${PT8}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V8_${IP8}_${PT8}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP9}:${PT9}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V9_${IP9}_${PT9}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP10}:${PT10}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V10_${IP10}_${PT10}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP11}:${PT11}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V11_${IP11}_${PT11}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP12}:${PT12}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V12_${IP12}_${PT12}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP13}:${PT13}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V13_${IP13}_${PT13}`);
+
+
+  const pg\u0076\u006c\u0065\u0073\u0073share = btoa(`\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP8}:${PT8}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V8_${IP8}_${PT8}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP9}:${PT9}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V9_${IP9}_${PT9}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP10}:${PT10}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V10_${IP10}_${PT10}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP11}:${PT11}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V11_${IP11}_${PT11}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP12}:${PT12}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V12_${IP12}_${PT12}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP13}:${PT13}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V13_${IP13}_${PT13}`);	
+
+	
+  const noteshow = note.replace(/\n/g, '<br>');
+  const displayHtml = `
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<style>
+.limited-width {
+    max-width: 200px;
+    overflow: auto;
+    word-wrap: break-word;
+}
+</style>
+</head>
+<script>
+function copyToClipboard(text) {
+  const input = document.createElement('textarea');
+  input.style.position = 'fixed';
+  input.style.opacity = 0;
+  input.value = text;
+  document.body.appendChild(input);
+  input.select();
+  document.execCommand('Copy');
+  document.body.removeChild(input);
+  alert('已复制到剪贴板');
+}
+</script>
+`;
+if (hostName.includes("workers.dev")) {
+return `
+<br>
+<br>
+${displayHtml}
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Cloudflare-workers/pages-\u0076\u006c\u0065\u0073\u0073代理脚本 V25.5.4</h1>
+	    <hr>
+            <p>${noteshow}</p>
+            <hr>
+	    <hr>
+	    <hr>
+            <br>
+            <br>
+            <h3>1：CF-workers-\u0076\u006c\u0065\u0073\u0073+ws节点</h3>
+			<table class="table">
+				<thead>
+					<tr>
+						<th>节点特色：</th>
+						<th>单节点链接如下：</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="limited-width">关闭了TLS加密，无视域名阻断</td>
+						<td class="limited-width">${w\u0076\u006c\u0065\u0073\u0073ws}</td>
+						<td><button class="btn btn-primary" onclick="copyToClipboard('${w\u0076\u006c\u0065\u0073\u0073ws}')">点击复制链接</button></td>
+					</tr>
+				</tbody>
+			</table>
+            <h5>客户端参数如下：</h5>
+            <ul>
+                <li>客户端地址(address)：自定义的域名 或者 优选域名 或者 优选IP 或者 反代IP</li>
+                <li>端口(port)：7个http端口可任意选择(80、8080、8880、2052、2082、2086、2095)，或反代IP对应端口</li>
+                <li>用户ID(uuid)：${userID}</li>
+                <li>传输协议(network)：ws 或者 websocket</li>
+                <li>伪装域名(host)：${hostName}</li>
+                <li>路径(path)：/?ed=2560</li>
+		<li>传输安全(TLS)：关闭</li>
+            </ul>
+            <hr>
+			<hr>
+			<hr>
+            <br>
+            <br>
+            <h3>2：CF-workers-\u0076\u006c\u0065\u0073\u0073+ws+tls节点</h3>
+			<table class="table">
+				<thead>
+					<tr>
+						<th>节点特色：</th>
+						<th>单节点链接如下：</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="limited-width">启用了TLS加密，<br>如果客户端支持分片(Fragment)功能，建议开启，防止域名阻断</td>
+						<td class="limited-width">${p\u0076\u006c\u0065\u0073\u0073wstls}</td>	
+						<td><button class="btn btn-primary" onclick="copyToClipboard('${p\u0076\u006c\u0065\u0073\u0073wstls}')">点击复制链接</button></td>
+					</tr>
+				</tbody>
+			</table>
+            <h5>客户端参数如下：</h5>
+            <ul>
+                <li>客户端地址(address)：自定义的域名 或者 优选域名 或者 优选IP 或者 反代IP</li>
+                <li>端口(port)：6个https端口可任意选择(443、8443、2053、2083、2087、2096)，或反代IP对应端口</li>
+                <li>用户ID(uuid)：${userID}</li>
+                <li>传输协议(network)：ws 或者 websocket</li>
+                <li>伪装域名(host)：${hostName}</li>
+                <li>路径(path)：/?ed=2560</li>
+                <li>传输安全(TLS)：开启</li>
+                <li>跳过证书验证(allowlnsecure)：false</li>
+			</ul>
+			<hr>
+			<hr>
+			<hr>
+			<br>	
+			<br>
+			<h3>3：聚合通用、Clash-meta、Sing-box订阅链接如下：</h3>
+			<hr>
+			<p>注意：<br>1、默认每个订阅链接包含TLS+非TLS共13个端口节点<br>2、当前workers域名作为订阅链接，需通过代理进行订阅更新<br>3、如使用的客户端不支持分片功能，则TLS节点不可用</p>
+			<hr>
+
+
+			<table class="table">
+					<thead>
+						<tr>
+							<th>聚合通用分享链接 (可直接导入客户端)：</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><button class="btn btn-primary" onclick="copyToClipboard('${wk\u0076\u006c\u0065\u0073\u0073share}')">点击复制链接</button></td>
+						</tr>
+					</tbody>
+				</table>
+
+
+   
+			<table class="table">
+					<thead>
+						<tr>
+							<th>聚合通用订阅链接：</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="limited-width">${ty}</td>	
+							<td><button class="btn btn-primary" onclick="copyToClipboard('${ty}')">点击复制链接</button></td>
+						</tr>
+					</tbody>
+				</table>	
+
+				<table class="table">
+						<thead>
+							<tr>
+								<th>Clash-meta订阅链接：</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td class="limited-width">${cl}</td>	
+								<td><button class="btn btn-primary" onclick="copyToClipboard('${cl}')">点击复制链接</button></td>
+							</tr>
+						</tbody>
+					</table>
+
+					<table class="table">
+					<thead>
+						<tr>
+							<th>Sing-box订阅链接：</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="limited-width">${sb}</td>	
+							<td><button class="btn btn-primary" onclick="copyToClipboard('${sb}')">点击复制链接</button></td>
+						</tr>
+					</tbody>
+				</table>
+				<br>
+				<br>
+        </div>
+    </div>
+</div>
+</body>
+`;
+  } else {
+    return `
+<br>
+<br>
+${displayHtml}
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Cloudflare-workers/pages-\u0076\u006c\u0065\u0073\u0073代理脚本 V25.5.4</h1>
+			<hr>
+            <p>${noteshow}</p>
+            <hr>
+			<hr>
+			<hr>
+            <br>
+            <br>
+            <h3>1：CF-pages/workers/自定义域-\u0076\u006c\u0065\u0073\u0073+ws+tls节点</h3>
+			<table class="table">
+				<thead>
+					<tr>
+						<th>节点特色：</th>
+						<th>单节点链接如下：</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="limited-width">启用了TLS加密，<br>如果客户端支持分片(Fragment)功能，可开启，防止域名阻断</td>
+						<td class="limited-width">${p\u0076\u006c\u0065\u0073\u0073wstls}</td>
+						<td><button class="btn btn-primary" onclick="copyToClipboard('${p\u0076\u006c\u0065\u0073\u0073wstls}')">点击复制链接</button></td>
+					</tr>
+				</tbody>
+			</table>
+            <h5>客户端参数如下：</h5>
+            <ul>
+                <li>客户端地址(address)：自定义的域名 或者 优选域名 或者 优选IP 或者 反代IP</li>
+                <li>端口(port)：6个https端口可任意选择(443、8443、2053、2083、2087、2096)，或反代IP对应端口</li>
+                <li>用户ID(uuid)：${userID}</li>
+                <li>传输协议(network)：ws 或者 websocket</li>
+                <li>伪装域名(host)：${hostName}</li>
+                <li>路径(path)：/?ed=2560</li>
+                <li>传输安全(TLS)：开启</li>
+                <li>跳过证书验证(allowlnsecure)：false</li>
+			</ul>
+            <hr>
+			<hr>
+			<hr>
+            <br>
+            <br>
+			<h3>2：聚合通用、Clash-meta、Sing-box订阅链接如下：</h3>
+			<hr>
+			<p>注意：以下订阅链接仅6个TLS端口节点</p>
+			<hr>
+
+
+			<table class="table">
+					<thead>
+						<tr>
+							<th>聚合通用分享链接 (可直接导入客户端)：</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><button class="btn btn-primary" onclick="copyToClipboard('${pg\u0076\u006c\u0065\u0073\u0073share}')">点击复制链接</button></td>
+						</tr>
+					</tbody>
+				</table>
+
+
+
+			<table class="table">
+					<thead>
+						<tr>
+							<th>聚合通用订阅链接：</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="limited-width">${pty}</td>	
+							<td><button class="btn btn-primary" onclick="copyToClipboard('${pty}')">点击复制链接</button></td>
+						</tr>
+					</tbody>
+				</table>	
+
+				<table class="table">
+						<thead>
+							<tr>
+								<th>Clash-meta订阅链接：</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td class="limited-width">${pcl}</td>	
+								<td><button class="btn btn-primary" onclick="copyToClipboard('${pcl}')">点击复制链接</button></td>
+							</tr>
+						</tbody>
+					</table>
+
+					<table class="table">
+					<thead>
+						<tr>
+							<th>Sing-box订阅链接：</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="limited-width">${psb}</td>	
+							<td><button class="btn btn-primary" onclick="copyToClipboard('${psb}')">点击复制链接</button></td>
+						</tr>
+					</tbody>
+				</table>
+				<br>
+				<br>
+        </div>
+    </div>
+</div>
+</body>
+`;
+  }
+}
+
+function gettyConfig(userID, hostName) {
+	const \u0076\u006c\u0065\u0073\u0073share = btoa(`\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP1}:${PT1}?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V1_${IP1}_${PT1}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP2}:${PT2}?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V2_${IP2}_${PT2}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP3}:${PT3}?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V3_${IP3}_${PT3}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP4}:${PT4}?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V4_${IP4}_${PT4}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP5}:${PT5}?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V5_${IP5}_${PT5}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP6}:${PT6}?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V6_${IP6}_${PT6}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP7}:${PT7}?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V7_${IP7}_${PT7}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP8}:${PT8}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V8_${IP8}_${PT8}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP9}:${PT9}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V9_${IP9}_${PT9}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP10}:${PT10}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V10_${IP10}_${PT10}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP11}:${PT11}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V11_${IP11}_${PT11}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP12}:${PT12}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V12_${IP12}_${PT12}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP13}:${PT13}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V13_${IP13}_${PT13}`);
+		return `${\u0076\u006c\u0065\u0073\u0073share}`
+	}
+
+function getclConfig(userID, hostName) {
+return `
+port: 7890
+allow-lan: true
+mode: rule
+log-level: info
+unified-delay: true
+global-client-fingerprint: chrome
+dns:
+  enable: false
+  listen: :53
+  ipv6: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver: 
+    - 223.5.5.5
+    - 114.114.114.114
+    - 8.8.8.8
+  nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+  fallback:
+    - https://1.0.0.1/dns-query
+    - tls://dns.google
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+      - 240.0.0.0/4
+
+proxies:
+- name: CF_V1_${IP1}_${PT1}
+  type: \u0076\u006c\u0065\u0073\u0073
+  server: ${IP1.replace(/[\[\]]/g, '')}
+  port: ${PT1}
+  uuid: ${userID}
+  udp: false
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+
+- name: CF_V2_${IP2}_${PT2}
+  type: \u0076\u006c\u0065\u0073\u0073
+  server: ${IP2.replace(/[\[\]]/g, '')}
+  port: ${PT2}
+  uuid: ${userID}
+  udp: false
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+
+- name: CF_V3_${IP3}_${PT3}
+  type: \u0076\u006c\u0065\u0073\u0073
+  server: ${IP3.replace(/[\[\]]/g, '')}
+  port: ${PT3}
+  uuid: ${userID}
+  udp: false
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+
+- name: CF_V4_${IP4}_${PT4}
+  type: \u0076\u006c\u0065\u0073\u0073
+  server: ${IP4.replace(/[\[\]]/g, '')}
+  port: ${PT4}
+  uuid: ${userID}
+  udp: false
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+
+- name: CF_V5_${IP5}_${PT5}
+  type: \u0076\u006c\u0065\u0073\u0073
+  server: ${IP5.replace(/[\[\]]/g, '')}
+  port: ${PT5}
+  uuid: ${userID}
+  udp: false
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+
+- name: CF_V6_${IP6}_${PT6}
+  type: \u0076\u006c\u0065\u0073\u0073
+  server: ${IP6.replace(/[\[\]]/g, '')}
+  port: ${PT6}
+  uuid: ${userID}
+  udp: false
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+
+- name: CF_V7_${IP7}_${PT7}
+  type: \u0076\u006c\u0065\u0073\u0073
+  server: ${IP7.replace(/[\[\]]/g, '')}
+  port: ${PT7}
+  uuid: ${userID}
+  udp: false
+  tls: false
+  network: ws
+  servername: ${hostName}
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+
+- name: CF_V8_${IP8}_${PT8}
+  type: \u0076\u006c\u0065\u0073\u0073
+  server: ${IP8.replace(/[\[\]]/g, '')}
+  port: ${PT8}
+  uuid: ${userID}
+  udp: false
+  tls: true
+  network: ws
+  servername: ${hostName}
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+
+- name: CF_V9_${IP9}_${PT9}
+  type: \u0076\u006c\u0065\u0073\u0073
+  server: ${IP9.replace(/[\[\]]/g, '')}
+  port: ${PT9}
+  uuid: ${userID}
+  udp: false
+  tls: true
+  network: ws
+  servername: ${hostName}
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+
+- name: CF_V10_${IP10}_${PT10}
+  type: \u0076\u006c\u0065\u0073\u0073
+  server: ${IP10.replace(/[\[\]]/g, '')}
+  port: ${PT10}
+  uuid: ${userID}
+  udp: false
+  tls: true
+  network: ws
+  servername: ${hostName}
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+
+- name: CF_V11_${IP11}_${PT11}
+  type: \u0076\u006c\u0065\u0073\u0073
+  server: ${IP11.replace(/[\[\]]/g, '')}
+  port: ${PT11}
+  uuid: ${userID}
+  udp: false
+  tls: true
+  network: ws
+  servername: ${hostName}
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+
+- name: CF_V12_${IP12}_${PT12}
+  type: \u0076\u006c\u0065\u0073\u0073
+  server: ${IP12.replace(/[\[\]]/g, '')}
+  port: ${PT12}
+  uuid: ${userID}
+  udp: false
+  tls: true
+  network: ws
+  servername: ${hostName}
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+
+- name: CF_V13_${IP13}_${PT13}
+  type: \u0076\u006c\u0065\u0073\u0073
+  server: ${IP13.replace(/[\[\]]/g, '')}
+  port: ${PT13}
+  uuid: ${userID}
+  udp: false
+  tls: true
+  network: ws
+  servername: ${hostName}
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+
+proxy-groups:
+- name: 负载均衡
+  type: load-balance
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  proxies:
+    - CF_V1_${IP1}_${PT1}
+    - CF_V2_${IP2}_${PT2}
+    - CF_V3_${IP3}_${PT3}
+    - CF_V4_${IP4}_${PT4}
+    - CF_V5_${IP5}_${PT5}
+    - CF_V6_${IP6}_${PT6}
+    - CF_V7_${IP7}_${PT7}
+    - CF_V8_${IP8}_${PT8}
+    - CF_V9_${IP9}_${PT9}
+    - CF_V10_${IP10}_${PT10}
+    - CF_V11_${IP11}_${PT11}
+    - CF_V12_${IP12}_${PT12}
+    - CF_V13_${IP13}_${PT13}
+
+- name: 自动选择
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies:
+    - CF_V1_${IP1}_${PT1}
+    - CF_V2_${IP2}_${PT2}
+    - CF_V3_${IP3}_${PT3}
+    - CF_V4_${IP4}_${PT4}
+    - CF_V5_${IP5}_${PT5}
+    - CF_V6_${IP6}_${PT6}
+    - CF_V7_${IP7}_${PT7}
+    - CF_V8_${IP8}_${PT8}
+    - CF_V9_${IP9}_${PT9}
+    - CF_V10_${IP10}_${PT10}
+    - CF_V11_${IP11}_${PT11}
+    - CF_V12_${IP12}_${PT12}
+    - CF_V13_${IP13}_${PT13}
+
+- name: 🌍选择代理
+  type: select
+  proxies:
+    - 负载均衡
+    - 自动选择
+    - DIRECT
+    - CF_V1_${IP1}_${PT1}
+    - CF_V2_${IP2}_${PT2}
+    - CF_V3_${IP3}_${PT3}
+    - CF_V4_${IP4}_${PT4}
+    - CF_V5_${IP5}_${PT5}
+    - CF_V6_${IP6}_${PT6}
+    - CF_V7_${IP7}_${PT7}
+    - CF_V8_${IP8}_${PT8}
+    - CF_V9_${IP9}_${PT9}
+    - CF_V10_${IP10}_${PT10}
+    - CF_V11_${IP11}_${PT11}
+    - CF_V12_${IP12}_${PT12}
+    - CF_V13_${IP13}_${PT13}
+
+rules:
+  - GEOIP,LAN,DIRECT
+  - GEOIP,CN,DIRECT
+  - MATCH,🌍选择代理`
+}
+	
+function getsbConfig(userID, hostName) {
+return `{
+	  "log": {
+		"disabled": false,
+		"level": "info",
+		"timestamp": true
+	  },
+	  "experimental": {
+		"clash_api": {
+		  "external_controller": "127.0.0.1:9090",
+		  "external_ui": "ui",
+		  "external_ui_download_url": "",
+		  "external_ui_download_detour": "",
+		  "secret": "",
+		  "default_mode": "Rule"
+		},
+		"cache_file": {
+		  "enabled": true,
+		  "path": "cache.db",
+		  "store_fakeip": true
+		}
+	  },
+	  "dns": {
+		"servers": [
+		  {
+			"tag": "proxydns",
+			"address": "tls://8.8.8.8/dns-query",
+			"detour": "select"
+		  },
+		  {
+			"tag": "localdns",
+			"address": "h3://223.5.5.5/dns-query",
+			"detour": "direct"
+		  },
+		  {
+			"tag": "dns_fakeip",
+			"address": "fakeip"
+		  }
+		],
+		"rules": [
+		  {
+			"outbound": "any",
+			"server": "localdns",
+			"disable_cache": true
+		  },
+		  {
+			"clash_mode": "Global",
+			"server": "proxydns"
+		  },
+		  {
+			"clash_mode": "Direct",
+			"server": "localdns"
+		  },
+		  {
+			"rule_set": "geosite-cn",
+			"server": "localdns"
+		  },
+		  {
+			"rule_set": "geosite-geolocation-!cn",
+			"server": "proxydns"
+		  },
+		  {
+			"rule_set": "geosite-geolocation-!cn",
+			"query_type": [
+			  "A",
+			  "AAAA"
+			],
+			"server": "dns_fakeip"
+		  }
+		],
+		"fakeip": {
+		  "enabled": true,
+		  "inet4_range": "198.18.0.0/15",
+		  "inet6_range": "fc00::/18"
+		},
+		"independent_cache": true,
+		"final": "proxydns"
+	  },
+	  "inbounds": [
+		{
+		  "type": "tun",
+                  "tag": "tun-in",
+		  "address": [
+                    "172.19.0.1/30",
+		    "fd00::1/126"
+      ],
+		  "auto_route": true,
+		  "strict_route": true,
+		  "sniff": true,
+		  "sniff_override_destination": true,
+		  "domain_strategy": "prefer_ipv4"
+		}
+	  ],
+	  "outbounds": [
+		{
+		  "tag": "select",
+		  "type": "selector",
+		  "default": "auto",
+		  "outbounds": [
+			"auto",
+			"CF_V1_${IP1}_${PT1}",
+			"CF_V2_${IP2}_${PT2}",
+			"CF_V3_${IP3}_${PT3}",
+			"CF_V4_${IP4}_${PT4}",
+			"CF_V5_${IP5}_${PT5}",
+			"CF_V6_${IP6}_${PT6}",
+			"CF_V7_${IP7}_${PT7}",
+			"CF_V8_${IP8}_${PT8}",
+			"CF_V9_${IP9}_${PT9}",
+			"CF_V10_${IP10}_${PT10}",
+			"CF_V11_${IP11}_${PT11}",
+			"CF_V12_${IP12}_${PT12}",
+			"CF_V13_${IP13}_${PT13}"
+		  ]
+		},
+		{
+		  "server": "${IP1}",
+		  "server_port": ${PT1},
+		  "tag": "CF_V1_${IP1}_${PT1}",
+		  "packet_encoding": "packetaddr",
+		  "transport": {
+			"headers": {
+			  "Host": [
+				"${hostName}"
+			  ]
+			},
+			"path": "/?ed=2560",
+			"type": "ws"
+		  },
+		  "type": "\u0076\u006c\u0065\u0073\u0073",
+		  "uuid": "${userID}"
+		},
+		{
+		  "server": "${IP2}",
+		  "server_port": ${PT2},
+		  "tag": "CF_V2_${IP2}_${PT2}",
+		  "packet_encoding": "packetaddr",
+		  "transport": {
+			"headers": {
+			  "Host": [
+				"${hostName}"
+			  ]
+			},
+			"path": "/?ed=2560",
+			"type": "ws"
+		  },
+		  "type": "\u0076\u006c\u0065\u0073\u0073",
+		  "uuid": "${userID}"
+		},
+		{
+		  "server": "${IP3}",
+		  "server_port": ${PT3},
+		  "tag": "CF_V3_${IP3}_${PT3}",
+		  "packet_encoding": "packetaddr",
+		  "transport": {
+			"headers": {
+			  "Host": [
+				"${hostName}"
+			  ]
+			},
+			"path": "/?ed=2560",
+			"type": "ws"
+		  },
+		  "type": "\u0076\u006c\u0065\u0073\u0073",
+		  "uuid": "${userID}"
+		},
+		{
+		  "server": "${IP4}",
+		  "server_port": ${PT4},
+		  "tag": "CF_V4_${IP4}_${PT4}",
+		  "packet_encoding": "packetaddr",
+		  "transport": {
+			"headers": {
+			  "Host": [
+				"${hostName}"
+			  ]
+			},
+			"path": "/?ed=2560",
+			"type": "ws"
+		  },
+		  "type": "\u0076\u006c\u0065\u0073\u0073",
+		  "uuid": "${userID}"
+		},
+		{
+		  "server": "${IP5}",
+		  "server_port": ${PT5},
+		  "tag": "CF_V5_${IP5}_${PT5}",
+		  "packet_encoding": "packetaddr",
+		  "transport": {
+			"headers": {
+			  "Host": [
+				"${hostName}"
+			  ]
+			},
+			"path": "/?ed=2560",
+			"type": "ws"
+		  },
+		  "type": "\u0076\u006c\u0065\u0073\u0073",
+		  "uuid": "${userID}"
+		},
+		{
+		  "server": "${IP6}",
+		  "server_port": ${PT6},
+		  "tag": "CF_V6_${IP6}_${PT6}",
+		  "packet_encoding": "packetaddr",
+		  "transport": {
+			"headers": {
+			  "Host": [
+				"${hostName}"
+			  ]
+			},
+			"path": "/?ed=2560",
+			"type": "ws"
+		  },
+		  "type": "\u0076\u006c\u0065\u0073\u0073",
+		  "uuid": "${userID}"
+		},
+		{
+		  "server": "${IP7}",
+		  "server_port": ${PT7},
+		  "tag": "CF_V7_${IP7}_${PT7}",
+		  "packet_encoding": "packetaddr",
+		  "transport": {
+			"headers": {
+			  "Host": [
+				"${hostName}"
+			  ]
+			},
+			"path": "/?ed=2560",
+			"type": "ws"
+		  },
+		  "type": "\u0076\u006c\u0065\u0073\u0073",
+		  "uuid": "${userID}"
+		},
+		{     
+		  "server": "${IP8}",
+		  "server_port": ${PT8},
+		  "tag": "CF_V8_${IP8}_${PT8}",
+		  "tls": {
+			"enabled": true,
+			"server_name": "${hostName}",
+			"insecure": false,
+			"utls": {
+			  "enabled": true,
+			  "fingerprint": "chrome"
+			}
+		  },
+		  "packet_encoding": "packetaddr",
+		  "transport": {
+			"headers": {
+			  "Host": [
+				"${hostName}"
+			  ]
+			},
+			"path": "/?ed=2560",
+			"type": "ws"
+		  },
+		  "type": "\u0076\u006c\u0065\u0073\u0073",
+		  "uuid": "${userID}"
+		},
+		{
+		  "server": "${IP9}",
+		  "server_port": ${PT9},
+		  "tag": "CF_V9_${IP9}_${PT9}",
+		  "tls": {
+			"enabled": true,
+			"server_name": "${hostName}",
+			"insecure": false,
+			"utls": {
+			  "enabled": true,
+			  "fingerprint": "chrome"
+			}
+		  },
+		  "packet_encoding": "packetaddr",
+		  "transport": {
+			"headers": {
+			  "Host": [
+				"${hostName}"
+			  ]
+			},
+			"path": "/?ed=2560",
+			"type": "ws"
+		  },
+		  "type": "\u0076\u006c\u0065\u0073\u0073",
+		  "uuid": "${userID}"
+		},
+		{
+		  "server": "${IP10}",
+		  "server_port": ${PT10},
+		  "tag": "CF_V10_${IP10}_${PT10}",
+		  "tls": {
+			"enabled": true,
+			"server_name": "${hostName}",
+			"insecure": false,
+			"utls": {
+			  "enabled": true,
+			  "fingerprint": "chrome"
+			}
+		  },
+		  "packet_encoding": "packetaddr",
+		  "transport": {
+			"headers": {
+			  "Host": [
+				"${hostName}"
+			  ]
+			},
+			"path": "/?ed=2560",
+			"type": "ws"
+		  },
+		  "type": "\u0076\u006c\u0065\u0073\u0073",
+		  "uuid": "${userID}"
+		},
+		{
+		  "server": "${IP11}",
+		  "server_port": ${PT11},
+		  "tag": "CF_V11_${IP11}_${PT11}",
+		  "tls": {
+			"enabled": true,
+			"server_name": "${hostName}",
+			"insecure": false,
+			"utls": {
+			  "enabled": true,
+			  "fingerprint": "chrome"
+			}
+		  },
+		  "packet_encoding": "packetaddr",
+		  "transport": {
+			"headers": {
+			  "Host": [
+				"${hostName}"
+			  ]
+			},
+			"path": "/?ed=2560",
+			"type": "ws"
+		  },
+		  "type": "\u0076\u006c\u0065\u0073\u0073",
+		  "uuid": "${userID}"
+		},
+		{
+		  "server": "${IP12}",
+		  "server_port": ${PT12},
+		  "tag": "CF_V12_${IP12}_${PT12}",
+		  "tls": {
+			"enabled": true,
+			"server_name": "${hostName}",
+			"insecure": false,
+			"utls": {
+			  "enabled": true,
+			  "fingerprint": "chrome"
+			}
+		  },
+		  "packet_encoding": "packetaddr",
+		  "transport": {
+			"headers": {
+			  "Host": [
+				"${hostName}"
+			  ]
+			},
+			"path": "/?ed=2560",
+			"type": "ws"
+		  },
+		  "type": "\u0076\u006c\u0065\u0073\u0073",
+		  "uuid": "${userID}"
+		},
+		{
+		  "server": "${IP13}",
+		  "server_port": ${PT13},
+		  "tag": "CF_V13_${IP13}_${PT13}",
+		  "tls": {
+			"enabled": true,
+			"server_name": "${hostName}",
+			"insecure": false,
+			"utls": {
+			  "enabled": true,
+			  "fingerprint": "chrome"
+			}
+		  },
+		  "packet_encoding": "packetaddr",
+		  "transport": {
+			"headers": {
+			  "Host": [
+				"${hostName}"
+			  ]
+			},
+			"path": "/?ed=2560",
+			"type": "ws"
+		  },
+		  "type": "\u0076\u006c\u0065\u0073\u0073",
+		  "uuid": "${userID}"
+		},
+		{
+		  "tag": "direct",
+		  "type": "direct"
+		},
+		{
+		  "tag": "auto",
+		  "type": "urltest",
+		  "outbounds": [
+			"CF_V1_${IP1}_${PT1}",
+			"CF_V2_${IP2}_${PT2}",
+			"CF_V3_${IP3}_${PT3}",
+			"CF_V4_${IP4}_${PT4}",
+			"CF_V5_${IP5}_${PT5}",
+			"CF_V6_${IP6}_${PT6}",
+			"CF_V7_${IP7}_${PT7}",
+			"CF_V8_${IP8}_${PT8}",
+			"CF_V9_${IP9}_${PT9}",
+			"CF_V10_${IP10}_${PT10}",
+			"CF_V11_${IP11}_${PT11}",
+			"CF_V12_${IP12}_${PT12}",
+			"CF_V13_${IP13}_${PT13}"
+		  ],
+		  "url": "https://www.gstatic.com/generate_204",
+		  "interval": "1m",
+		  "tolerance": 50,
+		  "interrupt_exist_connections": false
+		}
+	  ],
+	  "route": {
+		"rule_set": [
+		  {
+			"tag": "geosite-geolocation-!cn",
+			"type": "remote",
+			"format": "binary",
+			"url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/geolocation-!cn.srs",
+			"download_detour": "select",
+			"update_interval": "1d"
+		  },
+		  {
+			"tag": "geosite-cn",
+			"type": "remote",
+			"format": "binary",
+			"url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/geolocation-cn.srs",
+			"download_detour": "select",
+			"update_interval": "1d"
+		  },
+		  {
+			"tag": "geoip-cn",
+			"type": "remote",
+			"format": "binary",
+			"url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geoip/cn.srs",
+			"download_detour": "select",
+			"update_interval": "1d"
+		  }
+		],
+		"auto_detect_interface": true,
+		"final": "select",
+		"rules": [
+                         {
+                        "inbound": "tun-in",
+                        "action": "sniff"
+                         },
+                          {
+                        "protocol": "dns",
+                           "action": "hijack-dns"
+                         },
+                        {
+                        "port": 443,
+                        "network": "udp",
+                        "action": "reject"
+                         },
+		  {
+			"clash_mode": "Direct",
+			"outbound": "direct"
+		  },
+		  {
+			"clash_mode": "Global",
+			"outbound": "select"
+		  },
+		  {
+			"rule_set": "geoip-cn",
+			"outbound": "direct"
+		  },
+		  {
+			"rule_set": "geosite-cn",
+			"outbound": "direct"
+		  },
+		  {
+			"ip_is_private": true,
+			"outbound": "direct"
+		  },
+		  {
+			"rule_set": "geosite-geolocation-!cn",
+			"outbound": "select"
+		  }
+		]
+	  },
+	  "ntp": {
+		"enabled": true,
+		"server": "time.apple.com",
+		"server_port": 123,
+		"interval": "30m",
+		"detour": "direct"
+	  }
+	}`
+}
+
+function getptyConfig(userID, hostName) {
+	const \u0076\u006c\u0065\u0073\u0073share = btoa(`\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP8}:${PT8}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V8_${IP8}_${PT8}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP9}:${PT9}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V9_${IP9}_${PT9}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP10}:${PT10}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V10_${IP10}_${PT10}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP11}:${PT11}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V11_${IP11}_${PT11}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP12}:${PT12}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V12_${IP12}_${PT12}\n\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${IP13}:${PT13}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_V13_${IP13}_${PT13}`);	
+		return `${\u0076\u006c\u0065\u0073\u0073share}`
+	}
+	
+function getpclConfig(userID, hostName) {
+return `
+port: 7890
+allow-lan: true
+mode: rule
+log-level: info
+unified-delay: true
+global-client-fingerprint: chrome
+dns:
+  enable: false
+  listen: :53
+  ipv6: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver: 
+    - 223.5.5.5
+    - 114.114.114.114
+    - 8.8.8.8
+  nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+  fallback:
+    - https://1.0.0.1/dns-query
+    - tls://dns.google
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+      - 240.0.0.0/4
+
+proxies:
+- name: CF_V8_${IP8}_${PT8}
+  type: \u0076\u006c\u0065\u0073\u0073
+  server: ${IP8.replace(/[\[\]]/g, '')}
+  port: ${PT8}
+  uuid: ${userID}
+  udp: false
+  tls: true
+  network: ws
+  servername: ${hostName}
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+
+- name: CF_V9_${IP9}_${PT9}
+  type: \u0076\u006c\u0065\u0073\u0073
+  server: ${IP9.replace(/[\[\]]/g, '')}
+  port: ${PT9}
+  uuid: ${userID}
+  udp: false
+  tls: true
+  network: ws
+  servername: ${hostName}
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+
+- name: CF_V10_${IP10}_${PT10}
+  type: \u0076\u006c\u0065\u0073\u0073
+  server: ${IP10.replace(/[\[\]]/g, '')}
+  port: ${PT10}
+  uuid: ${userID}
+  udp: false
+  tls: true
+  network: ws
+  servername: ${hostName}
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+
+- name: CF_V11_${IP11}_${PT11}
+  type: \u0076\u006c\u0065\u0073\u0073
+  server: ${IP11.replace(/[\[\]]/g, '')}
+  port: ${PT11}
+  uuid: ${userID}
+  udp: false
+  tls: true
+  network: ws
+  servername: ${hostName}
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+
+- name: CF_V12_${IP12}_${PT12}
+  type: \u0076\u006c\u0065\u0073\u0073
+  server: ${IP12.replace(/[\[\]]/g, '')}
+  port: ${PT12}
+  uuid: ${userID}
+  udp: false
+  tls: true
+  network: ws
+  servername: ${hostName}
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+
+- name: CF_V13_${IP13}_${PT13}
+  type: \u0076\u006c\u0065\u0073\u0073
+  server: ${IP13.replace(/[\[\]]/g, '')}
+  port: ${PT13}
+  uuid: ${userID}
+  udp: false
+  tls: true
+  network: ws
+  servername: ${hostName}
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+
+proxy-groups:
+- name: 负载均衡
+  type: load-balance
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  proxies:
+    - CF_V8_${IP8}_${PT8}
+    - CF_V9_${IP9}_${PT9}
+    - CF_V10_${IP10}_${PT10}
+    - CF_V11_${IP11}_${PT11}
+    - CF_V12_${IP12}_${PT12}
+    - CF_V13_${IP13}_${PT13}
+
+- name: 自动选择
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies:
+    - CF_V8_${IP8}_${PT8}
+    - CF_V9_${IP9}_${PT9}
+    - CF_V10_${IP10}_${PT10}
+    - CF_V11_${IP11}_${PT11}
+    - CF_V12_${IP12}_${PT12}
+    - CF_V13_${IP13}_${PT13}
+
+- name: 🌍选择代理
+  type: select
+  proxies:
+    - 负载均衡
+    - 自动选择
+    - DIRECT
+    - CF_V8_${IP8}_${PT8}
+    - CF_V9_${IP9}_${PT9}
+    - CF_V10_${IP10}_${PT10}
+    - CF_V11_${IP11}_${PT11}
+    - CF_V12_${IP12}_${PT12}
+    - CF_V13_${IP13}_${PT13}
+
+rules:
+  - GEOIP,LAN,DIRECT
+  - GEOIP,CN,DIRECT
+  - MATCH,🌍选择代理`
+}
+		
+function getpsbConfig(userID, hostName) {
+return `{
+		  "log": {
+			"disabled": false,
+			"level": "info",
+			"timestamp": true
+		  },
+		  "experimental": {
+			"clash_api": {
+			  "external_controller": "127.0.0.1:9090",
+			  "external_ui": "ui",
+			  "external_ui_download_url": "",
+			  "external_ui_download_detour": "",
+			  "secret": "",
+			  "default_mode": "Rule"
+			},
+			"cache_file": {
+			  "enabled": true,
+			  "path": "cache.db",
+			  "store_fakeip": true
+			}
+		  },
+		  "dns": {
+			"servers": [
+			  {
+				"tag": "proxydns",
+				"address": "tls://8.8.8.8/dns-query",
+				"detour": "select"
+			  },
+			  {
+				"tag": "localdns",
+				"address": "h3://223.5.5.5/dns-query",
+				"detour": "direct"
+			  },
+			  {
+				"tag": "dns_fakeip",
+				"address": "fakeip"
+			  }
+			],
+			"rules": [
+			  {
+				"outbound": "any",
+				"server": "localdns",
+				"disable_cache": true
+			  },
+			  {
+				"clash_mode": "Global",
+				"server": "proxydns"
+			  },
+			  {
+				"clash_mode": "Direct",
+				"server": "localdns"
+			  },
+			  {
+				"rule_set": "geosite-cn",
+				"server": "localdns"
+			  },
+			  {
+				"rule_set": "geosite-geolocation-!cn",
+				"server": "proxydns"
+			  },
+			  {
+				"rule_set": "geosite-geolocation-!cn",
+				"query_type": [
+				  "A",
+				  "AAAA"
+				],
+				"server": "dns_fakeip"
+			  }
+			],
+			"fakeip": {
+			  "enabled": true,
+			  "inet4_range": "198.18.0.0/15",
+			  "inet6_range": "fc00::/18"
+			},
+			"independent_cache": true,
+			"final": "proxydns"
+		  },
+		  "inbounds": [
+			{
+			  "type": "tun",
+                        "tag": "tun-in",
+		  "address": [
+                    "172.19.0.1/30",
+		    "fd00::1/126"
+      ],
+			  "auto_route": true,
+			  "strict_route": true,
+			  "sniff": true,
+			  "sniff_override_destination": true,
+			  "domain_strategy": "prefer_ipv4"
+			}
+		  ],
+		  "outbounds": [
+			{
+			  "tag": "select",
+			  "type": "selector",
+			  "default": "auto",
+			  "outbounds": [
+				"auto",
+				"CF_V8_${IP8}_${PT8}",
+				"CF_V9_${IP9}_${PT9}",
+				"CF_V10_${IP10}_${PT10}",
+				"CF_V11_${IP11}_${PT11}",
+				"CF_V12_${IP12}_${PT12}",
+				"CF_V13_${IP13}_${PT13}"
+			  ]
+			},
+			{
+			  "server": "${IP8}",
+			  "server_port": ${PT8},
+			  "tag": "CF_V8_${IP8}_${PT8}",
+			  "tls": {
+				"enabled": true,
+				"server_name": "${hostName}",
+				"insecure": false,
+				"utls": {
+				  "enabled": true,
+				  "fingerprint": "chrome"
+				}
+			  },
+			  "packet_encoding": "packetaddr",
+			  "transport": {
+				"headers": {
+				  "Host": [
+					"${hostName}"
+				  ]
+				},
+				"path": "/?ed=2560",
+				"type": "ws"
+			  },
+			  "type": "\u0076\u006c\u0065\u0073\u0073",
+			  "uuid": "${userID}"
+			},
+			{
+			  "server": "${IP9}",
+			  "server_port": ${PT9},
+			  "tag": "CF_V9_${IP9}_${PT9}",
+			  "tls": {
+				"enabled": true,
+				"server_name": "${hostName}",
+				"insecure": false,
+				"utls": {
+				  "enabled": true,
+				  "fingerprint": "chrome"
+				}
+			  },
+			  "packet_encoding": "packetaddr",
+			  "transport": {
+				"headers": {
+				  "Host": [
+					"${hostName}"
+				  ]
+				},
+				"path": "/?ed=2560",
+				"type": "ws"
+			  },
+			  "type": "\u0076\u006c\u0065\u0073\u0073",
+			  "uuid": "${userID}"
+			},
+			{
+			  "server": "${IP10}",
+			  "server_port": ${PT10},
+			  "tag": "CF_V10_${IP10}_${PT10}",
+			  "tls": {
+				"enabled": true,
+				"server_name": "${hostName}",
+				"insecure": false,
+				"utls": {
+				  "enabled": true,
+				  "fingerprint": "chrome"
+				}
+			  },
+			  "packet_encoding": "packetaddr",
+			  "transport": {
+				"headers": {
+				  "Host": [
+					"${hostName}"
+				  ]
+				},
+				"path": "/?ed=2560",
+				"type": "ws"
+			  },
+			  "type": "\u0076\u006c\u0065\u0073\u0073",
+			  "uuid": "${userID}"
+			},
+			{
+			  "server": "${IP11}",
+			  "server_port": ${PT11},
+			  "tag": "CF_V11_${IP11}_${PT11}",
+			  "tls": {
+				"enabled": true,
+				"server_name": "${hostName}",
+				"insecure": false,
+				"utls": {
+				  "enabled": true,
+				  "fingerprint": "chrome"
+				}
+			  },
+			  "packet_encoding": "packetaddr",
+			  "transport": {
+				"headers": {
+				  "Host": [
+					"${hostName}"
+				  ]
+				},
+				"path": "/?ed=2560",
+				"type": "ws"
+			  },
+			  "type": "\u0076\u006c\u0065\u0073\u0073",
+			  "uuid": "${userID}"
+			},
+			{
+			  "server": "${IP12}",
+			  "server_port": ${PT12},
+			  "tag": "CF_V12_${IP12}_${PT12}",
+			  "tls": {
+				"enabled": true,
+				"server_name": "${hostName}",
+				"insecure": false,
+				"utls": {
+				  "enabled": true,
+				  "fingerprint": "chrome"
+				}
+			  },
+			  "packet_encoding": "packetaddr",
+			  "transport": {
+				"headers": {
+				  "Host": [
+					"${hostName}"
+				  ]
+				},
+				"path": "/?ed=2560",
+				"type": "ws"
+			  },
+			  "type": "\u0076\u006c\u0065\u0073\u0073",
+			  "uuid": "${userID}"
+			},
+			{
+			  "server": "${IP13}",
+			  "server_port": ${PT13},
+			  "tag": "CF_V13_${IP13}_${PT13}",
+			  "tls": {
+				"enabled": true,
+				"server_name": "${hostName}",
+				"insecure": false,
+				"utls": {
+				  "enabled": true,
+				  "fingerprint": "chrome"
+				}
+			  },
+			  "packet_encoding": "packetaddr",
+			  "transport": {
+				"headers": {
+				  "Host": [
+					"${hostName}"
+				  ]
+				},
+				"path": "/?ed=2560",
+				"type": "ws"
+			  },
+			  "type": "\u0076\u006c\u0065\u0073\u0073",
+			  "uuid": "${userID}"
+			},
+			{
+			  "tag": "direct",
+			  "type": "direct"
+			},
+			{
+			  "tag": "auto",
+			  "type": "urltest",
+			  "outbounds": [
+				"CF_V8_${IP8}_${PT8}",
+				"CF_V9_${IP9}_${PT9}",
+				"CF_V10_${IP10}_${PT10}",
+				"CF_V11_${IP11}_${PT11}",
+				"CF_V12_${IP12}_${PT12}",
+				"CF_V13_${IP13}_${PT13}"
+			  ],
+			  "url": "https://www.gstatic.com/generate_204",
+			  "interval": "1m",
+			  "tolerance": 50,
+			  "interrupt_exist_connections": false
+			}
+		  ],
+		  "route": {
+			"rule_set": [
+			  {
+				"tag": "geosite-geolocation-!cn",
+				"type": "remote",
+				"format": "binary",
+				"url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/geolocation-!cn.srs",
+				"download_detour": "select",
+				"update_interval": "1d"
+			  },
+			  {
+				"tag": "geosite-cn",
+				"type": "remote",
+				"format": "binary",
+				"url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/geolocation-cn.srs",
+				"download_detour": "select",
+				"update_interval": "1d"
+			  },
+			  {
+				"tag": "geoip-cn",
+				"type": "remote",
+				"format": "binary",
+				"url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geoip/cn.srs",
+				"download_detour": "select",
+				"update_interval": "1d"
+			  }
+			],
+			"auto_detect_interface": true,
+			"final": "select",
+			"rules": [
+                          {
+                         "inbound": "tun-in",
+                          "action": "sniff"
+                          },
+                          {
+                          "protocol": "dns",
+                          "action": "hijack-dns"
+                           },
+                          {
+                           "port": 443,
+                          "network": "udp",
+                          "action": "reject"
+                          },
+			  {
+				"clash_mode": "Direct",
+				"outbound": "direct"
+			  },
+			  {
+				"clash_mode": "Global",
+				"outbound": "select"
+			  },
+			  {
+				"rule_set": "geoip-cn",
+				"outbound": "direct"
+			  },
+			  {
+				"rule_set": "geosite-cn",
+				"outbound": "direct"
+			  },
+			  {
+				"ip_is_private": true,
+				"outbound": "direct"
+			  },
+			  {
+				"rule_set": "geosite-geolocation-!cn",
+				"outbound": "select"
+			  }
+			]
+		  },
+		  "ntp": {
+			"enabled": true,
+			"server": "time.apple.com",
+			"server_port": 123,
+			"interval": "30m",
+			"detour": "direct"
+		  }
+		}`;
+} 
